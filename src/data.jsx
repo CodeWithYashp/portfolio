@@ -242,27 +242,23 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: "Photo Editing",
+    title: "Website Design",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: "To-Do List",
       },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
+
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Photoshop",
+        desc: "HTML CSS JS",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://todo-list-rouge-three-21.vercel.app/",
       },
     ],
   },
@@ -270,27 +266,22 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: "Website Design",
+    title: "Landing Page",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Website",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        desc: "Facebook Clone",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "React JS",
+        desc: "Tailwind CSS",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://facebook-codewithyashp.vercel.app/",
       },
     ],
   },
@@ -298,27 +289,22 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "Video Editing",
+    title: "Website Design",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        desc: "Text Utils",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "React Js",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://vercel.com/codewithyashp/text-utils-react",
       },
     ],
   },
@@ -326,27 +312,22 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: "Video Editing",
+    title: "Landing Page",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        desc: "Microsoft Clone",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "Tailwind CSS",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://microsoft-landing-clone.vercel.app/",
       },
     ],
   },
@@ -354,23 +335,19 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: "Landing Page",
+    title: "Website Design",
     details: [
       {
         title: "Project : ",
-        desc: "Website",
-      },
-      {
-        title: "Client : ",
-        desc: "Dribble",
+        desc: "Travel Journal",
       },
       {
         title: "Language : ",
-        desc: "React JS, Node JS",
+        desc: "React JS",
       },
       {
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://travel-journal-lovat.vercel.app/",
       },
     ],
   },
@@ -378,27 +355,22 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: "Photo Editing",
+    title: "Website Design",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        desc: "Notes App",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Photoshop",
+        desc: "React Js",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dibble.com",
+        desc: "https://react-notes-olive.vercel.app/",
       },
     ],
   },

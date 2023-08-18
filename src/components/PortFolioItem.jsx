@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Close from "../assets/close.svg";
+import parse from "html-react-parser";
 
 const PortFolioItem = ({ img, title, details }) => {
   const [modal, setModal] = useState(false);
@@ -33,7 +34,7 @@ const PortFolioItem = ({ img, title, details }) => {
                     <span className="item--icon">{icon}</span>
                     <div>
                       <span className="item--title">{title}</span>
-                      <spam className="item--details">{desc}</spam>
+                      <span className="item--details">{desc}</span>
                     </div>
                   </li>
                 );
