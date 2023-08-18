@@ -34,7 +34,9 @@ const PortFolioItem = ({ img, title, details }) => {
                     <span className="item--icon">{icon}</span>
                     <div>
                       <span className="item--title">{title}</span>
-                      <span className="item--details">{desc}</span>
+                      <a href={desc} target="__blank">
+                        <span className="item--details">{desc}</span>
+                      </a>
                     </div>
                   </li>
                 );

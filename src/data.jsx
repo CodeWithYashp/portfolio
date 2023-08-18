@@ -304,7 +304,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://vercel.com/codewithyashp/text-utils-react",
+        desc: "https://textutils-yash.vercel.app",
       },
     ],
   },
@@ -379,14 +379,14 @@ export const portfolio = [
 export const themes = [
   {
     id: 1,
-    img: Theme1,
-    color: "hsl(252, 35%, 51%)",
+    img: Theme2,
+    color: "hsl(4, 93%, 54%)",
   },
 
   {
     id: 2,
-    img: Theme2,
-    color: "hsl(4, 93%, 54%)",
+    img: Theme1,
+    color: "hsl(252, 35%, 51%)",
   },
 
   {
