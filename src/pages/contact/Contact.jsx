@@ -13,6 +13,10 @@ import { SiLeetcode } from "react-icons/si";
 import "./contact.css";
 
 const Contact = () => {
+  const handleClick = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <section className="contact section">
       <h2 className="section--title">
@@ -115,7 +119,7 @@ const Contact = () => {
             ></textarea>
           </div>
 
-          <button className="button">
+          <button className="button" onClick={handleClick}>
             Send Message
             <span className="button--icon contact--button-icon">
               <FiSend />
