@@ -54,7 +54,7 @@ const Contact = () => {
             <a
               href="https://github.com/CodeWithYashp"
               className="contact--social-link"
-              target="__blank"
+              target="_blank"
             >
               <FaGithub />
             </a>
@@ -62,7 +62,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/yash-sharma-22200b201/"
               className="contact--social-link"
-              target="__blank"
+              target="_blank"
             >
               <FaLinkedin />
             </a>
@@ -70,7 +70,7 @@ const Contact = () => {
             <a
               href="https://www.instagram.com/yash_pandey__/"
               className="contact--social-link"
-              target="__blank"
+              target="_blank"
             >
               <FaInstagram />
             </a>
@@ -78,7 +78,7 @@ const Contact = () => {
             <a
               href="https://leetcode.com/CodeWithYashp/"
               className="contact--social-link"
-              target="__blank"
+              target="_blank"
             >
               <SiLeetcode />
             </a>
