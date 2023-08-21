@@ -15,6 +15,7 @@ import Work3 from "./assets/project-3.jpeg";
 import Work4 from "./assets/project-4.jpeg";
 import Work5 from "./assets/project-5.jpg";
 import Work6 from "./assets/project-6.jpg";
+import Work7 from "./assets/project-7.jpg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -371,6 +372,28 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: "Preview : ",
         desc: "https://react-notes-olive.vercel.app/",
+      },
+    ],
+  },
+  {
+    id: 7,
+    img: Work7,
+    title: "Website Design",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Weather App",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "Node Js, Express Js",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://meteomateweather.vercel.app/",
       },
     ],
   },
