@@ -237,6 +237,21 @@ export const skills = [
     title: "OOPS",
     percentage: "70",
   },
+  {
+    id: 9,
+    title: "Mongo DB",
+    percentage: "60",
+  },
+  {
+    id: 10,
+    title: "Bootstrap",
+    percentage: "50",
+  },
+  {
+    id: 11,
+    title: "Canva",
+    percentage: "80",
+  },
 ];
 
 export const portfolio = [
