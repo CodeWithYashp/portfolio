@@ -13,10 +13,6 @@ import { SiLeetcode } from "react-icons/si";
 import "./contact.css";
 
 const Contact = () => {
-  const handleClick = (event) => {
-    event.preventDefault();
-  };
-
   return (
     <section className="contact section">
       <h2 className="section--title">
@@ -85,28 +81,40 @@ const Contact = () => {
           </div>
         </div>
 
-        <form className="contact--form">
+        <form
+          className="contact--form"
+          action="https://formspree.io/f/xqkvqqky"
+          method="POST"
+        >
           <div className="form--input-group">
             <div className="form--input-div">
               <input
                 type="text"
+                name="username"
                 placeholder="Your Name"
+                autoComplete="off"
                 className="form--control"
+                required
               />
             </div>
 
             <div className="form--input-div">
               <input
                 type="email"
+                name="email"
                 placeholder="Your Email"
+                autoComplete="off"
                 className="form--control"
+                required
               />
             </div>
 
             <div className="form--input-div">
               <input
                 type="text"
+                name="subject"
                 placeholder="Subject"
+                autoComplete="off"
                 className="form--control"
               />
             </div>
@@ -114,12 +122,15 @@ const Contact = () => {
 
           <div className="form--input-div">
             <textarea
+              name="message"
               placeholder="Your Message"
+              autoComplete="off"
               className="form--control textarea"
+              required
             ></textarea>
           </div>
 
-          <button className="button" onClick={handleClick}>
+          <button className="button" type="submit" value="send">
             Send Message
             <span className="button--icon contact--button-icon">
               <FiSend />
