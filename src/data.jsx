@@ -16,6 +16,8 @@ import Work4 from "./assets/project-4.jpeg";
 import Work5 from "./assets/project-5.jpg";
 import Work6 from "./assets/project-6.jpg";
 import Work7 from "./assets/project-7.jpg";
+import Work8 from "./assets/project-8.jpg";
+import Work9 from "./assets/project-9.jpg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -258,7 +260,7 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: "Website Design",
+    title: "Javascript Project",
     details: [
       {
         icon: <FiFileText />,
@@ -274,7 +276,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://todo-list-rouge-three-21.vercel.app/",
+        desc: "https://yashtodo.vercel.app/",
       },
     ],
   },
@@ -297,7 +299,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://facebook-codewithyashp.vercel.app/",
+        desc: "https://facebookcloneyash.vercel.app/",
       },
     ],
   },
@@ -305,7 +307,7 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "Website Design",
+    title: "Frontend Project",
     details: [
       {
         icon: <FiFileText />,
@@ -343,7 +345,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://microsoft-landing-clone.vercel.app/",
+        desc: "https://microsoftcloneyash.vercel.app/",
       },
     ],
   },
@@ -351,7 +353,7 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: "Website Design",
+    title: "Frontend Project",
     details: [
       {
         title: "Project : ",
@@ -363,7 +365,7 @@ export const portfolio = [
       },
       {
         title: "Preview : ",
-        desc: "https://travel-journal-lovat.vercel.app/",
+        desc: "https://yashtraveljournal.vercel.app/",
       },
     ],
   },
@@ -371,7 +373,7 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: "Website Design",
+    title: "Frontend Project",
     details: [
       {
         icon: <FiFileText />,
@@ -386,14 +388,14 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://react-notes-olive.vercel.app/",
+        desc: "https://yashnotes.vercel.app/",
       },
     ],
   },
   {
     id: 7,
     img: Work7,
-    title: "Website Design",
+    title: "Backend Project",
     details: [
       {
         icon: <FiFileText />,
@@ -409,6 +411,50 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: "Preview : ",
         desc: "https://meteomateweather.vercel.app/",
+      },
+    ],
+  },
+  {
+    id: 8,
+    img: Work8,
+    title: "Game",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Bubbles Game",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "HTML CSS JS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://bubbleburst.vercel.app/",
+      },
+    ],
+  },
+  {
+    id: 9,
+    img: Work9,
+    title: "Music Player",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Spotify Clone",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "HTML CSS JS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://spotifycloneyash.vercel.app/",
       },
     ],
   },
