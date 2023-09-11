@@ -477,7 +477,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://shopnest-git-main-codewithyashp.vercel.app/",
+        desc: "https://yash-ecommerceshopnest.vercel.app/",
       },
     ],
   },
