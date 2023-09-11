@@ -18,6 +18,7 @@ import Work6 from "./assets/project-6.jpg";
 import Work7 from "./assets/project-7.jpg";
 import Work8 from "./assets/project-8.jpg";
 import Work9 from "./assets/project-9.jpg";
+import Work10 from "./assets/project-10.jpg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -455,6 +456,28 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: "Preview : ",
         desc: "https://spotifycloneyash.vercel.app/",
+      },
+    ],
+  },
+  {
+    id: 10,
+    img: Work10,
+    title: "MERN Project",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "ShopNest",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "MERN Stack",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://shopnest-git-main-codewithyashp.vercel.app/",
       },
     ],
   },
