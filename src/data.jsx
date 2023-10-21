@@ -20,6 +20,7 @@ import Work8 from "./assets/project-8.jpg";
 import Work9 from "./assets/project-9.jpg";
 import Work10 from "./assets/project-10.jpg";
 import Work11 from "./assets/project-11.jpg";
+import Work12 from "./assets/project-12.jpg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -501,6 +502,28 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: "Preview : ",
         desc: "https://github.com/CodeWithYashp/yashstore",
+      },
+    ],
+  },
+  {
+    id: 12,
+    img: Work12,
+    title: "React Project",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Youtube Clone",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React.js",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://yash-youtube-clone.vercel.app/",
       },
     ],
   },
