@@ -9,19 +9,15 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/project-1.jpeg";
+import Work1 from "./assets/project-1.jpg";
 import Work2 from "./assets/project-2.jpg";
 import Work3 from "./assets/project-3.jpeg";
-import Work4 from "./assets/project-4.jpeg";
+import Work4 from "./assets/project-4.jpg";
 import Work5 from "./assets/project-5.jpg";
 import Work6 from "./assets/project-6.jpg";
 import Work7 from "./assets/project-7.jpg";
 import Work8 from "./assets/project-8.jpg";
 import Work9 from "./assets/project-9.jpg";
-import Work10 from "./assets/project-10.jpg";
-import Work11 from "./assets/project-11.jpg";
-import Work12 from "./assets/project-12.jpg";
-import Work13 from "./assets/project-13.jpg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -264,23 +260,22 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: "Javascript Project",
+    title: "React Project",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "To-Do List",
+        desc: "Movix",
       },
-
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "HTML CSS JS",
+        desc: "React.js",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://yashtodo.vercel.app/",
+        desc: "https://yash-movix.vercel.app/",
       },
     ],
   },
@@ -288,22 +283,22 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: "Landing Page",
+    title: "React Project",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Facebook Clone",
+        desc: "Spotify Clone",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Tailwind CSS",
+        desc: "React JS",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://facebookcloneyash.vercel.app/",
+        desc: "https://yash-spotify-clone.vercel.app/",
       },
     ],
   },
@@ -311,12 +306,12 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "Frontend Project",
+    title: "React Project",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Text Utils",
+        desc: "SnapGram",
       },
       {
         icon: <FaCode />,
@@ -326,7 +321,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://textutils-yash.vercel.app",
+        desc: "https://yash-snapgram.vercel.app/",
       },
     ],
   },
@@ -334,22 +329,22 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: "Landing Page",
+    title: "MERN Project",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Microsoft Clone",
+        desc: "ShopNest",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Tailwind CSS",
+        desc: "MERN Stack",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://microsoftcloneyash.vercel.app/",
+        desc: "https://yash-ecommerceshopnest.vercel.app/",
       },
     ],
   },
@@ -357,11 +352,11 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: "Frontend Project",
+    title: "React Project",
     details: [
       {
         title: "Project : ",
-        desc: "Travel Journal",
+        desc: "Youtube Clone - V2",
       },
       {
         title: "Language : ",
@@ -369,7 +364,7 @@ export const portfolio = [
       },
       {
         title: "Preview : ",
-        desc: "https://yashtraveljournal.vercel.app/",
+        desc: "https://yash-youtube-v2.vercel.app/",
       },
     ],
   },
@@ -396,6 +391,7 @@ export const portfolio = [
       },
     ],
   },
+
   {
     id: 7,
     img: Work7,
@@ -418,75 +414,10 @@ export const portfolio = [
       },
     ],
   },
+
   {
     id: 8,
     img: Work8,
-    title: "Game",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Bubbles Game",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "HTML CSS JS",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://bubbleburst.vercel.app/",
-      },
-    ],
-  },
-  {
-    id: 9,
-    img: Work9,
-    title: "Music Player",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Spotify Clone",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "HTML CSS JS",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://spotifycloneyash.vercel.app/",
-      },
-    ],
-  },
-  {
-    id: 10,
-    img: Work10,
-    title: "MERN Project",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "ShopNest",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "MERN Stack",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://yash-ecommerceshopnest.vercel.app/",
-      },
-    ],
-  },
-  {
-    id: 11,
-    img: Work11,
     title: "React Project",
     details: [
       {
@@ -506,9 +437,10 @@ export const portfolio = [
       },
     ],
   },
+
   {
-    id: 12,
-    img: Work12,
+    id: 9,
+    img: Work9,
     title: "React Project",
     details: [
       {
@@ -525,28 +457,6 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: "Preview : ",
         desc: "https://yash-youtube-clone.vercel.app/",
-      },
-    ],
-  },
-  {
-    id: 13,
-    img: Work13,
-    title: "React Project",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Movix",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "React.js",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://yash-movix.vercel.app/",
       },
     ],
   },
